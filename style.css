@@ -19,3 +19,7 @@ header, footer {
 }
 header a { color: #fff; text-decoration: none; }
 main { max-width: 900px; margin: 30px auto; padding: 0 20px; }
+
+
+main a { color: #8b5a2b; text-decoration: none; }
+main a:hover { text-decoration: underline; }

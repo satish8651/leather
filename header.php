@@ -6,6 +6,9 @@
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+
+<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+
 <header>
   <h1><a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a></h1>
 </header>
