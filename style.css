@@ -24,6 +24,141 @@ Version: 1.0
   --dark-3:      #1C110B;
 } 
 
+
+/* =========================
+GLOBAL TYPOGRAPHY
+========================= */
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.6;
+color: #333333;
+}
+
+/* Main Headings */
+
+h1 {
+font-size: 40px;
+font-weight: 700;
+line-height: 1.2;
+margin-bottom: 20px;
+}
+
+h2 {
+font-size: 32px;
+font-weight: 700;
+line-height: 1.3;
+margin-bottom: 18px;
+}
+
+h3 {
+font-size: 26px;
+font-weight: 600;
+line-height: 1.4;
+margin-bottom: 16px;
+}
+
+h4 {
+font-size: 22px;
+font-weight: 600;
+line-height: 1.4;
+margin-bottom: 14px;
+}
+
+h5 {
+font-size: 18px;
+font-weight: 600;
+line-height: 1.5;
+margin-bottom: 12px;
+}
+
+h6 {
+font-size: 16px;
+font-weight: 600;
+line-height: 1.5;
+margin-bottom: 10px;
+}
+
+/* Paragraph */
+
+p {
+font-size: 16px;
+font-weight: 400;
+line-height: 1.7;
+margin-bottom: 16px;
+}
+
+/* Links */
+
+a {
+color: #0073e6;
+text-decoration: none;
+}
+
+a:hover {
+color: #0056b3;
+}
+
+/* Lists */
+
+ul,
+ol {
+padding-left: 24px;
+margin-bottom: 16px;
+}
+
+li {
+font-size: 16px;
+line-height: 1.7;
+}
+
+/* Buttons */
+
+button,
+input[type="submit"] {
+font-family: inherit;
+font-size: 16px;
+font-weight: 600;
+}
+
+/* Responsive Typography */
+
+@media (max-width: 768px) {
+h1 {
+font-size: 32px;
+}
+
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 17px;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+body,
+p,
+li {
+    font-size: 15px;
+}
+
+}
+
 /* heading css        ------------------------------------------------------------------------                               */
 
 .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
@@ -1852,6 +1987,70 @@ Version: 1.0
 @keyframes membScroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 
 @media (max-width: 768px) { .memb-track { animation-duration: 30s; gap: 24px; } }
+
+
+
+/* ------------------------------------------------------------------------------------------ */
+
+
+
+.gal { background: #FAF5EE; padding: 60px 0 70px; }
+.gal-head { text-align: center; max-width: 760px; margin: 0 auto 34px; }
+.gal-head h2 { font-family: Georgia, serif; font-size: 34px; line-height: 1.25; color: #2A1A12; margin: 6px 0 10px; }
+.gal-head h4 { font-size: 14px; color: #C68B59; margin: 0 0 14px; font-weight: 700; }
+.gal-line { display: block; width: 50px; height: 3px; background: #C68B59; margin: 0 auto 16px; }
+.gal-head p { font-size: 13.5px; line-height: 1.8; color: #6B5A4E; margin: 0; }
+
+.gal-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
+.gal-item { position: relative; overflow: hidden; border-radius: 4px; height: 168px; background: linear-gradient(135deg, #C68B59, #3E2A1F); }
+.gal-item img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s; }
+.gal-item:hover img { transform: scale(1.08); }
+.gal-label { position: absolute; left: 0; right: 0; bottom: 0; padding: 18px 12px 10px; background: linear-gradient(transparent, rgba(28,17,11,.85)); color: #fff; font-size: 10px; letter-spacing: 1.5px; font-weight: 700; }
+
+.gal-tile { display: flex; flex-direction: column; justify-content: center; gap: 8px; height: 136px; padding: 0 20px; border-radius: 4px; text-decoration: none; transition: .25s; }
+.gal-tile:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(42,26,18,.25); }
+.gal-tile small { font-size: 9px; letter-spacing: 1.8px; font-weight: 700; }
+.gal-tile strong { font-family: Georgia, serif; font-size: 13.5px; line-height: 1.35; }
+.gal-tile span { font-size: 11px; font-weight: 700; }
+.tile-gold  { background: #D9B77E; color: #2A1A12; }
+.tile-brown { background: #6B4630; color: #fff; }
+.tile-dark  { background: #2A1A12; color: #fff; }
+.tile-tan   { background: #A66E3F; color: #fff; }
+
+.gal-more { text-align: center; margin-top: 40px; }
+
+@media (max-width: 1000px) { .gal-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 560px)  { .gal-grid { grid-template-columns: repeat(2, 1fr); } .gal-head h2 { font-size: 24px; } }
+
+.gal-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: 168px;      /* har row ki height same */
+  gap: 8px;
+}
+
+.gal-item,
+.gal-tile {
+  height: 100%;               /* image aur tile dono grid cell ke size ke */
+  min-height: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.gal-tile {
+  justify-content: center;
+  padding: 0 18px;
+  overflow: hidden;
+}
+.gal-tile strong { font-size: 13px; line-height: 1.35; }
+.gal-tile span   { margin-top: 2px; }
+
+@media (max-width: 1000px) {
+  .gal-grid { grid-template-columns: repeat(3, 1fr); grid-auto-rows: 160px; }
+}
+@media (max-width: 560px) {
+  .gal-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 150px; }
+}
 
 
 

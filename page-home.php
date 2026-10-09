@@ -1065,6 +1065,70 @@ function switchBuyerTab(type, element) {
       </div>
     </div>
   </section>
+
+
+  <!-- -------------------------------------------------------- -->
+
+
+
+    <!-- Gallery -->
+  <section class="gal">
+    <div class="container">
+
+      <div class="gal-head">
+        <small class="eyebrow dark">GALLERY</small>
+        <h2>Eco Friendly Jute Bags Manufacturer &amp; Exporter in India</h2>
+        <h4>Weldiore — Premium Jute &amp; Cotton Bags Supplier from Kolkata</h4>
+        <span class="gal-line"></span>
+        <p>Explore our high-quality eco-friendly jute bags, cotton bags, wine bags, promotional bags, and custom printed bags. A leading jute bag manufacturer and exporter based in Kolkata, India, supplying worldwide with bulk production capacity and premium quality assurance.</p>
+      </div>
+
+      <div class="gal-grid">
+        <?php
+        // 14 images: gallery1.jpg ... gallery14.jpg  (leather/images/ me rakho)
+        for ( $i = 1; $i <= 14; $i++ ) :
+          $label = ( $i === 3 ) ? 'RETAIL BAGS RANGE' : '';
+        ?>
+          <div class="gal-item">
+            <img src="<?php echo esc_url( $img . 'gallery' . $i . '.jpg' ); ?>" alt="Gallery image <?php echo (int) $i; ?>">
+            <?php if ( $label ) : ?><span class="gal-label"><?php echo esc_html( $label ); ?></span><?php endif; ?>
+          </div>
+          <?php
+          // 11th image ke baad CTA tiles aate hain (last row)
+          if ( $i === 11 ) {
+            break;
+          }
+        endfor;
+        ?>
+
+        <a class="gal-tile tile-gold" href="<?php echo esc_url( home_url( '/products/' ) ); ?>">
+          <small>FULL RANGE</small>
+          <strong>See our complete<br>bag catalogue.</strong>
+          <span>Get Catalogue →</span>
+        </a>
+        <a class="gal-tile tile-brown" href="<?php echo esc_url( home_url( '/products/' ) ); ?>">
+          <small>EXPLORE</small>
+          <strong>Jute, cotton,<br>canvas &amp; juco.</strong>
+          <span>View All Products →</span>
+        </a>
+        <a class="gal-tile tile-dark" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">
+          <small>CUSTOM ORDER</small>
+          <strong>Can't find your style?<br>We make it 100% custom.</strong>
+          <span>Get a Free Quote →</span>
+        </a>
+        <a class="gal-tile tile-tan" href="https://wa.me/918100611554" target="_blank" rel="noopener">
+          <small>QUICK HELP</small>
+          <strong>Have a question?<br>Chat with us now.</strong>
+          <span>WhatsApp Us →</span>
+        </a>
+      </div>
+
+      <div class="gal-more">
+        <a class="link-caps" href="<?php echo esc_url( home_url( '/gallery/' ) ); ?>">VIEW FULL GALLERY</a>
+      </div>
+
+    </div>
+  </section>
   
 
 
