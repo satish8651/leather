@@ -282,6 +282,255 @@ $img = get_template_directory_uri() . '/images/';
     </div>
   </section>
 
+  <!--CUSTOM PRINT SHOWCASE Our Latest Designs — Ready to Customise- homepage.style.css ------------------------------------------------------- -->
+
+
+  <section class="custom-print-showcase">
+  <div class="cps-container">
+    
+    <!-- Section Header -->
+    <div class="cps-header">
+      <span class="cps-subheading">CUSTOM PRINT SHOWCASE</span>
+      <h2 class="cps-title">
+        Our <em>Latest Designs</em> &mdash; Ready to Customise
+      </h2>
+      <p class="cps-description">
+        From floral prints to minimalist botanicals &mdash; every design is fully customisable with 
+        your brand logo, colours and message. These are just a few examples of what we craft 
+        for our global buyers.
+      </p>
+    </div>
+
+    <!-- Cards Grid -->
+    <div class="cps-cards-grid">
+      <!-- Card 1 -->
+      <div class="cps-card">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/floral-nature.jpg" alt="Floral Nature Collection" class="cps-card-img" />
+        <div class="cps-card-overlay">
+          <span class="cps-card-tag">JUTE BAGS</span>
+          <h3 class="cps-card-heading">Floral Nature Collection</h3>
+          <p class="cps-card-text">
+            Full-colour print on natural jute &mdash; available in custom sizes &amp; MOQ 500 pcs (100 pcs per style)
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="cps-card">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/botanical-positivity.jpg" alt="Botanical Positivity Range" class="cps-card-img" />
+        <div class="cps-card-overlay">
+          <span class="cps-card-tag">JUTE &amp; COTTON</span>
+          <h3 class="cps-card-heading">Botanical Positivity Range</h3>
+          <p class="cps-card-text">
+            Coloured jute &amp; cotton bags with screen print &mdash; retail &amp; gifting ready
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Buttons -->
+    <div class="cps-cta-buttons">
+      <a href="/contact" class="cps-btn cps-btn-dark">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+        REQUEST CUSTOM DESIGN
+      </a>
+      <a href="/gallery" class="cps-btn cps-btn-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+        VIEW FULL GALLERY
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- -------------------------- -->
+
+
+
+<section class="printing-techniques-section">
+  <div class="pts-container">
+    
+    <!-- Top Heading -->
+    <div class="pts-header">
+      <span class="pts-subheading">&#9733; PREMIUM PRINTING &amp; BRANDING SOLUTIONS FOR ECO-FRIENDLY BAGS &#9733;</span>
+      <h2 class="pts-title">Custom Printed Jute Bags &amp; Printing Techniques</h2>
+      <p class="pts-description">
+        Explore premium custom printing options for <strong>eco-friendly jute bags</strong>, <strong>cotton bags</strong>, 
+        canvas bags, and promotional bags. Vadalo Ventures &mdash; a trusted <a href="#">jute bags manufacturer in India</a> &mdash; 
+        offers high-quality screen printing, sublimation printing, puff printing, embroidery, foil printing, digital printing, 
+        and customised branding solutions for global wholesale buyers and businesses.
+      </p>
+    </div>
+
+    <!-- Filter Tabs -->
+    <div class="pts-tabs-wrapper">
+      <button class="pts-tab-btn active" data-tab="all">Printing Techniques</button>
+      <button class="pts-tab-btn" data-tab="extra">Extra Features</button>
+      <button class="pts-tab-btn" data-tab="fabric">Fabric Types</button>
+      <button class="pts-tab-btn" data-tab="styles">Bag Styles &amp; Shapes</button>
+      <button class="pts-tab-btn" data-tab="packaging">Bags Packaging Types</button>
+      <button class="pts-tab-btn" data-tab="zippers">All Types of Zippers</button>
+      <button class="pts-tab-btn" data-tab="handles">All Types of Handles</button>
+      <button class="pts-tab-btn" data-tab="stitching">Bag Stitching Types</button>
+    </div>
+
+    <!-- Techniques Grid -->
+    <div class="pts-grid">
+      
+      <!-- Card 1 -->
+      <div class="pts-card" data-category="all">
+        <div class="pts-card-img-wrap">
+          <span class="pts-badge gold">MOST POPULAR</span>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/cmyk-print.jpg" alt="CMYK Print" />
+        </div>
+        <div class="pts-card-content">
+          <h3>CMYK Print</h3>
+          <a href="#" class="pts-read-more">&#9662; Read more</a>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="pts-card" data-category="all">
+        <div class="pts-card-img-wrap">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/digital-print.jpg" alt="Digital Print" />
+        </div>
+        <div class="pts-card-content">
+          <h3>Digital Print</h3>
+          <a href="#" class="pts-read-more">&#9662; Read more</a>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="pts-card" data-category="all">
+        <div class="pts-card-img-wrap">
+          <span class="pts-badge gold">PREMIUM</span>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/embroidery.jpg" alt="Embroidery" />
+        </div>
+        <div class="pts-card-content">
+          <h3>Embroidery</h3>
+          <a href="#" class="pts-read-more">&#9662; Read more</a>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="pts-card" data-category="all">
+        <div class="pts-card-img-wrap">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/glitter-print.jpg" alt="Glitter Print" />
+        </div>
+        <div class="pts-card-content">
+          <h3>Glitter Print</h3>
+          <a href="#" class="pts-read-more">&#9662; Read more</a>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="pts-card" data-category="all">
+        <div class="pts-card-img-wrap">
+          <span class="pts-badge gold">LUXURY</span>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/gold-foil.jpg" alt="Gold Foil Print" />
+        </div>
+        <div class="pts-card-content">
+          <h3>Gold Foil Print</h3>
+          <a href="#" class="pts-read-more">&#9662; Read more</a>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="pts-card" data-category="all">
+        <div class="pts-card-img-wrap">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/screen-printing.jpg" alt="Screen Printing" />
+        </div>
+        <div class="pts-card-content">
+          <h3>Screen Printing</h3>
+          <a href="#" class="pts-read-more">&#9662; Read more</a>
+        </div>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="pts-card" data-category="all">
+        <div class="pts-card-img-wrap">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/heat-transfer.jpg" alt="Heat Transfer Printing" />
+        </div>
+        <div class="pts-card-content">
+          <h3>Heat Transfer Printing</h3>
+          <a href="#" class="pts-read-more">&#9662; Read more</a>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="pts-card" data-category="all">
+        <div class="pts-card-img-wrap">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/sublimation.jpg" alt="Sublimation Printing" />
+        </div>
+        <div class="pts-card-content">
+          <h3>Sublimation Printing</h3>
+          <a href="#" class="pts-read-more">&#9662; Read more</a>
+        </div>
+      </div>
+
+      <!-- Card 9 -->
+      <div class="pts-card" data-category="all">
+        <div class="pts-card-img-wrap">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/tonal-print.jpg" alt="Tonal Print" />
+        </div>
+        <div class="pts-card-content">
+          <h3>Tonal Print</h3>
+          <a href="#" class="pts-read-more">&#9662; Read more</a>
+        </div>
+      </div>
+
+      <!-- Card 10 -->
+      <div class="pts-card" data-category="all">
+        <div class="pts-card-img-wrap">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/puff-printing.jpg" alt="Puff Printing (Raised Effect)" />
+        </div>
+        <div class="pts-card-content">
+          <h3>Puff Printing (Raised Effect)</h3>
+          <a href="#" class="pts-read-more">&#9662; Read more</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Minimum Order Banner -->
+    <div class="pts-banner">
+      <div class="pts-banner-left">
+        <span class="pts-banner-tag">MINIMUM ORDER</span>
+        <h3 class="pts-banner-title">Custom Printed Bags Starting from 100 pcs</h3>
+        <p class="pts-banner-sub">Physical samples sent before bulk production available. Free artwork review.</p>
+      </div>
+      <div class="pts-banner-right">
+        <a href="/sample-request" class="cps-btn cps-btn-dark pts-sample-btn">REQUEST PRINT SAMPLE</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Filter Tabs JS Script -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const tabs = document.querySelectorAll(".pts-tab-btn");
+  const cards = document.querySelectorAll(".pts-card");
+
+  tabs.forEach(tab => {
+    tab.addEventListener("click", function() {
+      tabs.forEach(t => t.classList.remove("active"));
+      this.classList.add("active");
+
+      const target = this.getAttribute("data-tab");
+      cards.forEach(card => {
+        if (target === "all" || card.getAttribute("data-category") === target) {
+          card.style.display = "block";
+        } else {
+          card.style.display = "none";
+        }
+      });
+    });
+  });
+});
+</script>
+
 </main>
 
 <script>
