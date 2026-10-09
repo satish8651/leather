@@ -12,13 +12,13 @@
   <div class="container header-inner">
 
     <a class="brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-      <?php bloginfo( 'name' ); ?>
+      <img class="brand-logo-img" src="<?php echo esc_url( get_template_directory_uri() . '/images/logo.png' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>">
     </a>
 
     <button class="nav-toggle" id="navToggle" aria-label="Menu">&#9776;</button>
 
     <nav class="main-nav" id="mainNav">
-      <ul class="menu"> 
+      <ul class="menu">
         <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
 
         <li class="has-dropdown">

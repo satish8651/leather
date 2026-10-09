@@ -74,3 +74,15 @@ function leather_set_permalinks() {
   update_option( 'leather_permalinks_set', 1 );
 }
 add_action( 'init', 'leather_set_permalinks' );
+
+// Logo code-----------------------------------------------------------------------------------------------------------------
+
+function leather_logo_support() {
+  add_theme_support( 'custom-logo', array(
+    'height'      => 60,
+    'width'       => 220,
+    'flex-height' => true,
+    'flex-width'  => true,
+  ) );
+}
+add_action( 'after_setup_theme', 'leather_logo_support' );

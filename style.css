@@ -5,6 +5,24 @@ Description: Leather theme
 Version: 1.0
 */
 
+/* All website color family style.css--------------------------------------------- */
+:root {
+  --orange:      #C68B59;   /* tan accent */
+  --orange-dark: #A66E3F;
+  --orange-soft: #E0B084;
+  --cream:       #FAF5EE;
+  --cyan:        #3E2A1F;   /* header = logo brown */
+  --cyan-dark:   #A66E3F;   /* links */
+  --green:       #C68B59;   /* strips / ticks */
+  --green-dark:  #A66E3F;
+  --ink:         #2A1A12;
+  --text:        #6B5A4E;
+  --white:       #FFFFFF;
+  --border:      #E8DCCB;
+  --dark-1:      #3E2A1F;
+  --dark-2:      #2A1A12;
+  --dark-3:      #1C110B;
+} 
 
 /* heading css        ------------------------------------------------------------------------                               */
 
@@ -288,6 +306,197 @@ Version: 1.0
 
 
 
+/* Our Purpose Vision & Mission home page style------------------------------------------------------------------------ */
+
+
+
+.story { background: #FAF5EE; padding: 60px 0 80px; }
+.story-note { text-align: center; font-style: italic; font-size: 12px; color: #6B5A4E; max-width: 640px; margin: 0 auto 50px; line-height: 1.6; }
+.story-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: start; }
+
+.story-images { display: flex; flex-direction: column; gap: 14px; }
+.story-card { background: #fff; border-radius: 18px; overflow: hidden; box-shadow: 0 15px 35px rgba(42,26,18,.15); }
+.story-card img { width: 100%; height: 200px; object-fit: cover; display: block; background: linear-gradient(135deg,#C68B59,#3E2A1F); }
+.story-caption { padding: 14px 16px; }
+.story-caption strong { display: block; font-size: 13px; color: #2A1A12; }
+.story-caption span { font-size: 11px; color: #6B5A4E; }
+.story-img2 { width: 100%; height: 255px; object-fit: cover; border-radius: 18px; display: block; background: linear-gradient(135deg,#3E2A1F,#C68B59); box-shadow: 0 15px 35px rgba(42,26,18,.15); }
+
+.story-text h2 { font-family: Georgia, serif; font-size: 32px; line-height: 1.25; color: #2A1A12; margin: 6px 0 16px; }
+.story-text h2 em { color: #C68B59; }
+.story-text p { font-size: 14px; line-height: 1.8; color: #6B5A4E; margin: 0 0 14px; }
+.story-text p strong { color: #2A1A12; }
+
+.story-quote { margin: 18px 0; padding: 14px 18px; background: #F3E9DA; border-left: 4px solid #C68B59; font-style: italic; font-size: 13px; color: #6B5A4E; }
+
+.story-features { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 8px; }
+.sf { background: #fff; border: 1px solid #E8DCCB; border-radius: 8px; padding: 14px; }
+.sf strong { display: block; font-size: 12px; color: #2A1A12; margin-bottom: 4px; }
+.sf span { font-size: 13px; color: #6B5A4E; line-height: 1.5; }
+
+@media (max-width: 900px) {
+  .story-grid { grid-template-columns: 1fr; }
+  .story-features { grid-template-columns: 1fr; }
+}
+
+
+/* <!-- ---OUR PURPOSE Vision & Mission home page style---------------- -->------------------------------ */
+
+
+.vm { background: #F6EFE4; padding: 70px 0 0; }
+.vm-head { text-align: center; max-width: 640px; margin: 0 auto 40px; }
+.vm-head h2 { font-family: Georgia, serif; font-size: 40px; color: #2A1A12; margin: 6px 0 12px; }
+.vm-line { display: block; width: 50px; height: 3px; background: #C68B59; margin: 0 auto 16px; }
+.vm-head p { font-size: 14px; line-height: 1.7; color: #6B5A4E; margin: 0; }
+
+.vm-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.vm-card { border-radius: 22px; padding: 32px; }
+.vm-card h3 { font-family: Georgia, serif; font-size: 26px; line-height: 1.25; margin: 6px 0 14px; }
+.vm-card p { font-size: 14px; line-height: 1.8; margin: 0 0 18px; }
+
+.vm-light { background: #fff; border: 1px solid #E8DCCB; }
+.vm-light h3 { color: #2A1A12; }
+.vm-light p { color: #6B5A4E; }
+.vm-tags { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.vm-tags li { background: #FAF5EE; border-left: 3px solid #C68B59; padding: 10px 14px; font-size: 12.5px; color: #2A1A12; border-radius: 0 6px 6px 0; }
+
+.vm-dark { background: #3E2A1F; }
+.vm-dark h3 { color: #fff; }
+.vm-bullets { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.vm-bullets li { position: relative; padding-left: 20px; font-size: 13px; line-height: 1.7; color: #E8DCCB; }
+.vm-bullets li::before { content: "◆"; position: absolute; left: 0; top: 0; color: #C68B59; font-size: 11px; }
+
+.vm-strip { background: #EFE6D6; margin-top: 50px; padding: 26px 0; text-align: center; }
+.vm-strip p { max-width: 820px; margin: 0 auto; font-size: 13px; line-height: 1.8; color: #6B5A4E; }
+.vm-strip strong { color: #2A1A12; }
+.vm-strip a { color: #A66E3F; }
+
+@media (max-width: 900px) {
+  .vm-grid { grid-template-columns: 1fr; }
+  .vm-head h2 { font-size: 30px; }
+}
+
+
+/* Our Products Eco Bags We Manufacture & Export homepage style.css------------------------------------------------------------------------------------------------- */
+
+
+.prod { background: #FAF5EE; padding: 60px 0 80px; }
+.prod-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 30px; margin-bottom: 34px; flex-wrap: wrap; }
+.prod-head h2 { font-family: Georgia, serif; font-size: 36px; color: #2A1A12; margin: 6px 0 10px; }
+.prod-head h2 em { color: #C68B59; }
+.prod-line { display: block; width: 50px; height: 3px; background: #C68B59; margin-bottom: 14px; }
+.prod-head p { max-width: 460px; font-size: 14px; line-height: 1.7; color: #6B5A4E; margin: 0; }
+.prod-certs { text-align: center; }
+.prod-certs small { display: block; font-size: 10px; letter-spacing: 2px; color: #A66E3F; margin-bottom: 10px; }
+.prod-certs div { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; max-width: 260px; }
+.prod-certs span { background: #fff; border: 1px solid #E8DCCB; border-radius: 6px; padding: 6px 10px; font-size: 11px; font-weight: bold; color: #2A1A12; }
+
+.prod-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+.pcard { background: #fff; border: 1px solid #E8DCCB; border-radius: 16px; overflow: hidden; transition: .25s; }
+.pcard:hover { transform: translateY(-4px); box-shadow: 0 14px 30px rgba(42,26,18,.15); }
+.pcard-img { position: relative; height: 150px; background: linear-gradient(135deg, #C68B59, #3E2A1F); }
+.pcard-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pcard-badge { position: absolute; top: 12px; right: 12px; background: #C68B59; color: #fff; font-size: 9px; letter-spacing: 1px; font-weight: bold; padding: 5px 10px; border-radius: 20px; }
+.pcard-body { padding: 18px; }
+.pcard-body h3 { font-family: Georgia, serif; font-size: 17px; color: #2A1A12; margin: 0 0 10px; }
+.pcard-body p { font-size: 13px; line-height: 1.7; color: #6B5A4E; margin: 0 0 16px; }
+.pcard-body ul { list-style: none; margin: 0 0 16px; padding: 0; display: grid; gap: 7px; }
+.pcard-body li { position: relative; padding-left: 18px; font-size: 10.5px; letter-spacing: .8px; text-transform: uppercase; color: #2A1A12; }
+.pcard-body li::before { content: "✓"; position: absolute; left: 0; color: #C68B59; font-weight: bold; }
+.pcard-link { font-size: 11px; letter-spacing: 1.2px; font-weight: bold; color: #2A1A12; text-decoration: none; }
+.pcard-link:hover { color: #A66E3F; }
+
+.prod-btns { display: flex; justify-content: center; align-items: center; gap: 40px; margin-top: 44px; flex-wrap: wrap; }
+
+@media (max-width: 1000px) { .prod-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .prod-grid { grid-template-columns: 1fr; } .prod-head h2 { font-size: 28px; } }
+
+
+
+.btn-cat {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: #3E2A1F;
+  color: #fff;
+  padding: 18px 34px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: .25s;
+}
+.btn-cat:hover {
+  background: #C68B59;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(42,26,18,.25);
+}
+
+.btn-quote {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #2A1A12;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 18px 10px;
+  transition: .25s;
+}
+.btn-quote:hover { color: #A66E3F; }
+
+
+/* ---WHO WE SERVE Indian & International Buyers Welcome homepage style.css------------------------------------------ */
+
+
+.serve { background: #F6EFE4; padding: 50px 0 56px; border-radius: 0 0 24px 24px; overflow: hidden; }
+.serve-head { text-align: center; margin-bottom: 28px; }
+.serve-head h2 { font-family: Georgia, serif; font-size: 26px; color: #2A1A12; margin: 6px 0 0; }
+
+.serve-marquee {
+  position: relative;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+          mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+}
+.serve-track {
+  display: flex;
+  gap: 14px;
+  width: max-content;
+  animation: serveScroll 45s linear infinite;
+}
+.serve-marquee:hover .serve-track { animation-play-state: paused; }
+
+.serve-chip {
+  flex: 0 0 auto;
+  min-width: 130px;
+  background: #fff;
+  border: 1px solid #E8DCCB;
+  border-radius: 10px;
+  padding: 14px 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(42,26,18,.06);
+}
+.serve-chip strong { display: block; font-size: 12.5px; color: #2A1A12; white-space: nowrap; }
+.serve-chip span { display: block; margin-top: 4px; font-size: 10.5px; color: #8a7a6d; white-space: nowrap; }
+
+@keyframes serveScroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@media (max-width: 768px) {
+  .serve-head h2 { font-size: 20px; }
+  .serve-track { animation-duration: 35s; }
+}
+
+
+
 /* About Us Page First Slider image style.css ------------------------------------------------------------------------------------------------------*/
 
 
@@ -381,3 +590,87 @@ Version: 1.0
   color: #d97a1f;
   border-bottom-color: #FF9D50;
 }
+
+a.btn-primary {
+  display: inline-block;
+  background: #C68B59;
+  color: #fff;
+  padding: 14px 30px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #C68B59;
+  transition: .25s;
+}
+a.btn-primary:hover {
+  background: #E0B084;
+  border-color: #E0B084;
+  color: #2A1A12;
+  transform: translateY(-2px);
+}
+
+.about-btns { display: flex; justify-content: center; align-items: center; gap: 14px; flex-wrap: wrap; }
+.about-btns .btn-outline-light {
+  display: inline-block;
+  padding: 14px 30px;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: .25s;
+}
+.about-btns .btn-outline-light:hover { background: #fff; color: #2A1A12; }
+
+/* website Logo style.css-------------------------------------------------------------------------------------------------------- */
+.brand { display: flex; align-items: center; }
+.brand-logo-img { height: 48px; width: auto; display: block; }
+
+
+/* All website color family style.css--------------------------------------------------------------------------------------------------- */
+
+
+/* Header: logo ke saath match, text white */
+.site-header { background: #3E2A1F; }
+.brand, .menu a { color: #fff; }
+.menu a:hover { color: #E0B084; border-bottom-color: #C68B59; }
+.nav-toggle { color: #fff; border-color: #C68B59; }
+
+/* Dropdown / mega */
+.menu .sub-menu li a, .menu .mega-card .mega-title { color: var(--ink); }
+.menu .sub-menu li a:hover { background: var(--cream); color: var(--orange-dark); }
+.mega-all { background: #3E2A1F; }
+.menu .mega-card .mega-viewall { color: #fff; }
+
+/* Buttons */
+.btn-primary { background: #C68B59; color: #fff; }
+.btn-primary:hover { background: #E0B084; color: var(--ink); }
+.btn-dark, .who-btns .btn-dark { background: #3E2A1F; color: #fff; }
+.btn-dark:hover, .who-btns .btn-dark:hover { background: #C68B59; color: #fff; }
+
+/* Footer */
+.cert-strip { background: #C68B59; }
+.cert-label, .cert-badge { color: #2A1A12; }
+.footer-main { background: linear-gradient(135deg, #3E2A1F, #2A1A12); }
+.site-footer a:hover { color: #E0B084; }
+
+/* Hero overlay brown */
+.hero-overlay, .about-hero-overlay { background: linear-gradient(90deg, rgba(42,26,18,.9), rgba(42,26,18,.35)); }
+.hero, .about-hero { background-color: #2A1A12; }
+.hl-card strong { color: #A66E3F; }
+.mv-card { border-left-color: #C68B59; }
+.cert-card { border-bottom-color: #C68B59; }
+.checks li::before { border-color: #C68B59; color: #A66E3F; }
+
+
+
+
+
+
+
