@@ -343,7 +343,7 @@ $img = get_template_directory_uri() . '/images/';
   </div>
 </section>
 
-<!-- -------------------------- -->
+<!-- -----★ PREMIUM PRINTING & BRANDING SOLUTIONS FOR ECO-FRIENDLY BAGS ★ Custom Printed Jute Bags & Printing Techniques------------------------------------------------------- -->
 
 
 
@@ -530,6 +530,543 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 </script>
+
+
+<!-- /* --BESPOKE MANUFACTURING Create Your Unique Product Range homepage.------------------------------------------ */------------------------------------ -->
+
+
+<section class="bespoke-manufacturing-section">
+  <div class="bm-container">
+    <div class="bm-row">
+      
+      <!-- Left Column: Content, Tags & CTA -->
+      <div class="bm-left-col">
+        <span class="bm-subheading">BESPOKE MANUFACTURING</span>
+        <h2 class="bm-title">Create Your Unique Product Range</h2>
+        <p class="bm-description">
+          Have a rough design or idea? Share it with us. Our in-house screen printing and manufacturing team 
+          will bring your vision to life &mdash; CMYK, digital, embroidery, glitter, gold foil and more &mdash; 
+          all under one roof in Kolkata.
+        </p>
+
+        <!-- Feature Tags Grid -->
+        <div class="bm-tags-grid">
+          <div class="bm-tag-item">Screen Printing</div>
+          <div class="bm-tag-item">CMYK / Digital</div>
+          <div class="bm-tag-item">Embroidery</div>
+          <div class="bm-tag-item">Glitter Print</div>
+          <div class="bm-tag-item">Gold Foil Print</div>
+          <div class="bm-tag-item">Custom Sizes</div>
+          <div class="bm-tag-item">Inner Labels</div>
+          <div class="bm-tag-item">Zipper / Magnetic</div>
+          <div class="bm-tag-item">Custom Handles</div>
+          <div class="bm-tag-item">Pantone Matching</div>
+        </div>
+
+        <!-- Call to Action Button -->
+        <div class="bm-cta-wrap">
+          <a href="/custom-order" class="cps-btn bm-btn-gold">START CUSTOMIZING</a>
+        </div>
+      </div>
+
+      <!-- Right Column: Vertical Process Steps (1-5) -->
+      <div class="bm-right-col">
+        <div class="bm-process-timeline">
+          
+          <!-- Step 1 -->
+          <div class="bm-step-item">
+            <div class="bm-step-number">1</div>
+            <div class="bm-step-content">
+              <h3>Share Requirements</h3>
+              <p>Product type, size, quantity, print design &mdash; tell us everything via form, email or WhatsApp. No detail is too small.</p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="bm-step-item">
+            <div class="bm-step-number">2</div>
+            <div class="bm-step-content">
+              <h3>Receive Quotation</h3>
+              <p>Detailed pricing &amp; lead time within 48 hours. Transparent costing &mdash; no hidden charges, ever.</p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="bm-step-item">
+            <div class="bm-step-number">3</div>
+            <div class="bm-step-content">
+              <h3>Sample Approval</h3>
+              <p>Physical pre-production samples shipped to you before bulk production begins. Revisions included.</p>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="bm-step-item">
+            <div class="bm-step-number">4</div>
+            <div class="bm-step-content">
+              <h3>Production &amp; QC</h3>
+              <p>Manufacturing with strict quality checks at every stage &mdash; fabric, stitching, printing and finishing.</p>
+            </div>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="bm-step-item">
+            <div class="bm-step-number">5</div>
+            <div class="bm-step-content">
+              <h3>Pack &amp; Export</h3>
+              <p>Professionally packed, documented &amp; shipped on time worldwide &mdash; with full tracking and export documents.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ---Our Advantages Why Buyers Choose Vadalo Ventures----------------------------------------------------------------------------------- -->
+
+
+<!-- Why Buyers Choose Us Section -->
+<section class="why-choose-us-section">
+  <div class="wcu-container">
+    
+    <!-- Section Header -->
+    <div class="wcu-header">
+      <span class="wcu-subheading">OUR ADVANTAGES</span>
+      <h2 class="wcu-title">Why Buyers Choose <em>Vadalo Ventures</em></h2>
+      <p class="wcu-description">
+        Trusted by importers, retailers and brands across 15+ countries. Here's what makes Vadalo the right manufacturing partner.
+      </p>
+    </div>
+
+    <!-- Top Badge Pills Grid (4x2) -->
+    <div class="wcu-pills-grid">
+      <div class="wcu-pill-item">
+        <span class="wcu-check-icon">&#10003;</span> Manufacturer Based in India
+      </div>
+      <div class="wcu-pill-item">
+        <span class="wcu-check-icon">&#10003;</span> OEM &amp; Private Label Support
+      </div>
+      <div class="wcu-pill-item">
+        <span class="wcu-check-icon">&#10003;</span> Custom Printing &amp; Branding
+      </div>
+      <div class="wcu-pill-item">
+        <span class="wcu-check-icon">&#10003;</span> Export-Grade Packaging
+      </div>
+      <div class="wcu-pill-item">
+        <span class="wcu-check-icon">&#10003;</span> Bulk Order Capability (3,000+/day)
+      </div>
+      <div class="wcu-pill-item">
+        <span class="wcu-check-icon">&#10003;</span> Worldwide Shipping Support
+      </div>
+      <div class="wcu-pill-item">
+        <span class="wcu-check-icon">&#10003;</span> Sample Development (5–8 Days)
+      </div>
+      <div class="wcu-pill-item">
+        <span class="wcu-check-icon">&#10003;</span> Dedicated Customer Support
+      </div>
+    </div>
+
+    <!-- Main Feature Cards Grid (5x2 Layout) -->
+    <div class="wcu-cards-grid">
+      
+      <!-- Card 1 -->
+      <div class="wcu-card">
+        <h3>Eco-Friendly Commitment</h3>
+        <p>100% natural, biodegradable jute, cotton, canvas &amp; juco. Every product is a step toward a plastic-free world &mdash; certified and export-compliant.</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="wcu-card">
+        <h3>Custom Design &amp; Branding</h3>
+        <p>Full customisation &mdash; size, colour, logo, print technique. CMYK, digital, embroidery, glitter, gold foil &mdash; your brand, executed perfectly.</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="wcu-card">
+        <h3>In-House Manufacturing</h3>
+        <p>Own production facility in Kolkata. Strict quality control, timely delivery, and complete flexibility for any order size &mdash; from 100 to 1 million pieces.</p>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="wcu-card">
+        <h3>Competitive Wholesale Pricing</h3>
+        <p>High-quality eco bags at manufacturer-direct prices. Attractive slab rates for wholesale, corporate &amp; retail buyers globally &mdash; no middlemen.</p>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="wcu-card">
+        <h3>Global Export Capability</h3>
+        <p>IEC registered. Full export documentation, international packaging &amp; reliable worldwide shipping to 15+ countries via sea and air freight.</p>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="wcu-card">
+        <h3>Multiple Ways to Reach Us</h3>
+        <p>Enquire via website form, email at <strong>info@vadalobags.com</strong>, or WhatsApp <strong>+91 8100611554</strong> &mdash; response guaranteed within 24 hours.</p>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="wcu-card">
+        <h3>Certified &amp; Compliant</h3>
+        <p>IEC registered, GST verified, MSME certified &amp; Pvt. Ltd. company. Every bag is legally compliant, ethically produced &amp; export-ready &mdash; trusted by global buyers.</p>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="wcu-card">
+        <h3>Sample Before Bulk</h3>
+        <p>Physical samples shipped before production begins. No surprises &mdash; what you approve is exactly what gets manufactured, at every single order.</p>
+      </div>
+
+      <!-- Card 9 -->
+      <div class="wcu-card">
+        <h3>Fast Turnaround</h3>
+        <p>Quotation within 24 hours. Sample dispatch within 7 days. Bulk production lead time as low as 15–20 days &mdash; because your deadlines always matter to us.</p>
+      </div>
+
+      <!-- Card 10 -->
+      <div class="wcu-card">
+        <h3>Long-Term Partnership</h3>
+        <p>We don't just sell bags &mdash; we build relationships. Dedicated support, repeat order benefits &amp; flexible terms for retailers, importers &amp; growing brands worldwide.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ---ticker strip HOTELS & HOSPITALITY◆BOOK PUBLISHERS◆COSMETIC BRANDS--------------------------------------------------------------------- -->
+
+
+<!-- Client Category Ticker Strip -->
+<div class="client-ticker-strip">
+  <div class="ticker-track">
+    <!-- Set 1 -->
+    <span>BOOK PUBLISHERS</span> <i class="ticker-diamond">&#9670;</i>
+    <span>COSMETIC BRANDS</span> <i class="ticker-diamond">&#9670;</i>
+    <span>NGOS &amp; EVENTS</span> <i class="ticker-diamond">&#9670;</i>
+    <span>E-COMMERCE BRANDS</span> <i class="ticker-diamond">&#9670;</i>
+    <span>DEPARTMENTAL STORES</span> <i class="ticker-diamond">&#9670;</i>
+    <span>PHARMA &amp; FMCG</span> <i class="ticker-diamond">&#9670;</i>
+    <span>HOTELS &amp; HOSPITALITY</span> <i class="ticker-diamond">&#9670;</i>
+
+    <!-- Set 2 (Duplicated for Seamless Infinite Scroll Loop) -->
+    <span>BOOK PUBLISHERS</span> <i class="ticker-diamond">&#9670;</i>
+    <span>COSMETIC BRANDS</span> <i class="ticker-diamond">&#9670;</i>
+    <span>NGOS &amp; EVENTS</span> <i class="ticker-diamond">&#9670;</i>
+    <span>E-COMMERCE BRANDS</span> <i class="ticker-diamond">&#9670;</i>
+    <span>DEPARTMENTAL STORES</span> <i class="ticker-diamond">&#9670;</i>
+    <span>PHARMA &amp; FMCG</span> <i class="ticker-diamond">&#9670;</i>
+    <span>HOTELS &amp; HOSPITALITY</span> <i class="ticker-diamond">&#9670;</i>
+  </div>
+</div>
+
+<!-- ----FOR BUYERS Everything You Need to Start Your Order--------------------------------------------------------------------------------------------------- -->
+
+<!-- For Buyers Section -->
+<section class="for-buyers-section">
+  <div class="fb-container">
+    
+    <!-- Header -->
+    <div class="fb-header">
+      <span class="fb-subheading">FOR BUYERS</span>
+      <h2 class="fb-title">Everything You Need to <em>Start Your Order</em></h2>
+      <p class="fb-description">
+        Whether you are an international importer or a domestic Indian buyer &mdash; we have flexible solutions tailored for you.
+      </p>
+      
+      <!-- Buyer Toggle Switcher -->
+      <div class="fb-toggle-wrapper">
+        <button class="fb-toggle-btn active" onclick="switchBuyerTab('international', this)">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+          INTERNATIONAL BUYERS
+        </button>
+        <button class="fb-toggle-btn" onclick="switchBuyerTab('india', this)">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path><line x1="4" y1="22" x2="4" y2="15"></line></svg>
+          INDIA BUYERS
+        </button>
+      </div>
+    </div>
+
+    <!-- Main Content Row -->
+    <div class="fb-content-row">
+      
+      <!-- Left Column -->
+      <div class="fb-left-col">
+        <span class="fb-badge">INTERNATIONAL EXPORT</span>
+        <h2 class="fb-left-title">We Export to <em>15+ Countries</em> &mdash; Seamlessly</h2>
+        <p class="fb-left-desc">
+          From sample approval to container loading, Vadalo Ventures handles the entire export process. All documents &mdash; Certificate of Origin, GSP, Bill of Lading &mdash; prepared in-house.
+        </p>
+
+        <!-- Feature List -->
+        <div class="fb-feature-list">
+          <!-- Feature Item 1 -->
+          <div class="fb-feature-item">
+            <div class="fb-icon-box">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+            </div>
+            <div>
+              <h4>ALL EXPORT DOCUMENTS INCLUDED</h4>
+              <p>Commercial Invoice, Packing List, Bill of Lading, Certificate of Origin, GSP Form A &mdash; prepared by us</p>
+            </div>
+          </div>
+
+          <!-- Feature Item 2 -->
+          <div class="fb-feature-item">
+            <div class="fb-icon-box">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+            </div>
+            <div>
+              <h4>FOB, CIF &amp; DDP TERMS</h4>
+              <p>Flexible Incoterms to suit your import setup &mdash; we work with all major shipping lines</p>
+            </div>
+          </div>
+
+          <!-- Feature Item 3 -->
+          <div class="fb-feature-item">
+            <div class="fb-icon-box">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+            </div>
+            <div>
+              <h4>FREE SAMPLES BEFORE BULK ORDER</h4>
+              <p>Sample bags dispatched within 3–5 working days via DHL / FedEx</p>
+            </div>
+          </div>
+
+          <!-- Feature Item 4 -->
+          <div class="fb-feature-item">
+            <div class="fb-icon-box">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <div>
+              <h4>100% QUALITY GUARANTEE</h4>
+              <p>Pre-shipment inspection available. Third-party QC (SGS / Bureau Veritas) can be arranged</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="fb-btn-group">
+          <a href="/quote" class="cps-btn fb-btn-gold">REQUEST EXPORT QUOTE</a>
+          <a href="/shipping-info" class="cps-btn fb-btn-outline">SHIPPING INFO</a>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="fb-right-col">
+        <!-- Specs Card 1 -->
+        <div class="fb-spec-card">
+          <span class="fb-spec-label">MINIMUM ORDER QUANTITY</span>
+          <h3 class="fb-spec-title">500 Pieces per Design</h3>
+          <p class="fb-spec-sub">Mixed container bookings available from 2,000 pcs</p>
+        </div>
+
+        <!-- Specs Card 2 -->
+        <div class="fb-spec-card">
+          <span class="fb-spec-label">PAYMENT TERMS</span>
+          <h3 class="fb-spec-title">30% Advance + 70% Before Shipment</h3>
+          <p class="fb-spec-sub">LC at sight accepted for orders above $10,000 USD</p>
+        </div>
+
+        <!-- Specs Card 3 -->
+        <div class="fb-spec-card">
+          <span class="fb-spec-label">LEAD TIME</span>
+          <h3 class="fb-spec-title">25–35 Working Days</h3>
+          <p class="fb-spec-sub">After artwork approval &amp; advance payment</p>
+        </div>
+
+        <!-- Two Column Grid for Pricing & Certifications -->
+        <div class="fb-spec-row">
+          <div class="fb-spec-card">
+            <span class="fb-spec-label">PRICING TERMS</span>
+            <h3 class="fb-spec-title">FOB / CIF</h3>
+            <p class="fb-spec-sub">Kolkata / Nhava Sheva</p>
+          </div>
+          <div class="fb-spec-card">
+            <span class="fb-spec-label">CERTIFICATIONS</span>
+            <h3 class="fb-spec-title">GST &middot; IEC</h3>
+            <p class="fb-spec-sub">MSME &middot; GOTS (in process)</p>
+          </div>
+        </div>
+
+        <!-- Countries We Export To Box -->
+        <div class="fb-countries-card">
+          <span class="fb-spec-label">COUNTRIES WE EXPORT TO</span>
+          <div class="fb-countries-tags">
+            <span class="fb-country-tag"><strong>US</strong> USA</span>
+            <span class="fb-country-tag"><strong>GB</strong> UK</span>
+            <span class="fb-country-tag"><strong>DE</strong> Germany</span>
+            <span class="fb-country-tag"><strong>AU</strong> Australia</span>
+            <span class="fb-country-tag"><strong>CA</strong> Canada</span>
+            <span class="fb-country-tag"><strong>FR</strong> France</span>
+            <span class="fb-country-tag"><strong>IT</strong> Italy</span>
+            <span class="fb-country-tag"><strong>AE</strong> UAE</span>
+            <span class="fb-country-tag"><strong>JP</strong> Japan</span>
+            <span class="fb-country-tag gold">+6 more</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- Switcher JS Script -->
+<script>
+function switchBuyerTab(type, element) {
+  const buttons = document.querySelectorAll('.fb-toggle-btn');
+  buttons.forEach(btn => btn.classList.remove('active'));
+  element.classList.add('active');
+  
+  // Future Tab switching content behavior can be handled here
+}
+</script>
+
+
+<!-- --FREE DOWNLOAD Download Our Product Catalogue--------------------------------------------------------------------------------------------- -->
+
+
+  <!-- Download Catalogue -->
+  <section class="cat">
+    <div class="container cat-grid">
+
+      <div class="cat-text">
+        <small class="eyebrow">FREE DOWNLOAD</small>
+        <h2>Download Our<br>Product Catalogue</h2>
+        <p>Get our complete product catalogue — all bag styles, materials, sizes, customization options &amp; pricing tiers. Share with your team before ordering.</p>
+
+        <div class="cat-chips">
+          <span>All Product Ranges</span>
+          <span>Colour &amp; Print Options</span>
+          <span>Size Specifications</span>
+          <span>Certifications Info</span>
+          <span>Wholesale Pricing Tiers</span>
+          <span>Export &amp; Shipping Guide</span>
+        </div>
+
+        <div class="cat-btns">
+          <a class="cat-btn cat-gold" href="<?php echo esc_url( get_template_directory_uri() . '/catalogue.pdf' ); ?>" download>
+            <svg width="14" height="16" viewBox="0 0 12 16" fill="currentColor" aria-hidden="true"><path d="M1 0h6l4 4v11a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1zm5 1v4h4z"/></svg>
+            DOWNLOAD CATALOGUE PDF
+          </a>
+          <a class="cat-btn cat-outline" href="https://wa.me/918100611554?text=Please%20send%20me%20your%20catalogue" target="_blank" rel="noopener">
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0a8 8 0 0 0-6.9 12L0 16l4.1-1.1A8 8 0 1 0 8 0zm4 11.3c-.2.5-1 1-1.5 1-.4.1-.9.1-2.8-.6-2.4-1-3.9-3.400-4-3.600-.1-.1-1-1.300-1-2.500s.6-1.800.9-2c.2-.2.4-.3.600-.3h.4c.1 0 .3 0 .5.4l.7 1.700c.1.100.1.300 0 .4l-.3.400c-.1.100-.2.300-.1.500.4.700 1 1.300 1.700 1.700.2.100.4.100.5-.1l.5-.6c.1-.2.3-.2.5-.1l1.600.8c.2.100.3.200.3.300 0 .2 0 .8-.2 1.300z"/></svg>
+            WHATSAPP FOR CATALOGUE
+          </a>
+          <a class="cat-btn cat-outline" href="mailto:info@example.com?subject=Catalogue%20Request">
+            <svg width="14" height="12" viewBox="0 0 16 12" fill="currentColor" aria-hidden="true"><path d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v.5L8 6 0 1.500zm0 2.600V11a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V3.600L8 8z"/></svg>
+            EMAIL FOR CATALOGUE
+          </a>
+        </div>
+      </div>
+
+      <div class="cat-visual">
+        <div class="cat-frame">
+          <img src="<?php echo esc_url( $img . 'catalogue.jpg' ); ?>" alt="Product catalogue">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ---------Our Process How We Work — Simple & Transparent------------------------------------------------------------------------------------ -->
+
+
+  <!-- How We Work -->
+  <section class="work">
+    <div class="container">
+
+      <div class="work-head">
+        <small class="eyebrow dark">OUR PROCESS</small>
+        <h2>How We Work — <em>Simple &amp; Transparent</em></h2>
+        <span class="work-line"></span>
+        <p>From your first enquiry to delivery at your door — our streamlined 5-step process ensures quality bags delivered on time, every time.</p>
+      </div>
+
+      <?php
+      $steps = array(
+        array( 'ENQUIRY',    'Share your bag type, size, quantity, and design idea via email or WhatsApp',
+               '<path d="M2 4h20v16H2zM2 4l10 8 10-8" fill="none" stroke="currentColor" stroke-width="2"/>' ),
+        array( 'QUOTATION',  'Receive detailed price quote within 24 hours including all production costs',
+               '<rect x="5" y="2" width="14" height="20" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 6h8M8 11h2M12 11h2M16 11h0M8 15h2M12 15h2M8 19h8" stroke="currentColor" stroke-width="2"/>' ),
+        array( 'SAMPLE',     'Pre-production sample dispatched for approval. Revisions included',
+               '<path d="M9 2h6M10 2v6l-6 11a2 2 0 0 0 2 3h12a2 2 0 0 0 2-3l-6-11V2" fill="none" stroke="currentColor" stroke-width="2"/>' ),
+        array( 'PRODUCTION', 'Bulk production with QC at each stage — weaving, stitching, printing',
+               '<path d="M2 22V10l6 4V10l6 4V6h4l2 16z" fill="currentColor"/>' ),
+        array( 'DELIVERY',   'Bags shipped with all export/import documents. Real-time tracking provided',
+               '<path d="M1 6h14v10H1zM15 9h4l3 3v4h-7z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="6" cy="18" r="2" fill="currentColor"/><circle cx="18" cy="18" r="2" fill="currentColor"/>' ),
+      );
+      ?>
+
+      <div class="work-steps">
+        <?php foreach ( $steps as $n => $s ) : ?>
+          <div class="wstep">
+            <div class="wstep-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><?php echo $s[2]; // static svg ?></svg>
+            </div>
+            <h4><?php echo ( $n + 1 ) . '. ' . esc_html( $s[0] ); ?></h4>
+            <p><?php echo esc_html( $s[1] ); ?></p>
+          </div>
+        <?php endforeach; ?>
+      </div>
+
+      <div class="work-cta">
+        <a class="enquiry-btn" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">START YOUR ENQUIRY TODAY</a>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- ----Certifications & Memberships" (scrolling badge strip)--------------------------------------------------------------------------------- -->
+
+
+    <!-- Certifications & Memberships -->
+  <section class="memb">
+    <div class="container memb-head">
+      <small class="eyebrow dark">CERTIFICATIONS &amp; MEMBERSHIPS</small>
+    </div>
+
+    <?php
+    $badges = array(
+      array( 'MSME / UDYAM REGISTERED', 'Govt. of India',                       '<path d="M2 22V10l6 4V10l6 4V6h4l2 16z" fill="currentColor"/>' ),
+      array( 'IEC REGISTERED',          'Import-Export Code — Export Ready',    '<circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18" fill="none" stroke="currentColor" stroke-width="1.5"/>' ),
+      array( 'SINCE 2009',              'Legacy Screen-Printing Experience',    '<circle cx="12" cy="9" r="5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 13l-2 8 6-3 6 3-2-8" fill="none" stroke="currentColor" stroke-width="2"/>' ),
+      array( 'GOTS — IN PROCESS',       'Organic Textile Standard (underway)',  '<path d="M12 22V10M12 10c0-4-3-6-7-6 0 4 3 6 7 6zM12 13c0-3 3-5 7-5 0 4-3 6-7 5z" fill="none" stroke="currentColor" stroke-width="2"/>' ),
+      array( 'GST VERIFIED',            'GSTIN 19AAKCV6214C1ZC',                '<rect x="5" y="3" width="14" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="2"/>' ),
+      array( 'COMPANY REGISTERED',      'CIN U46410WB2024PTC275166',            '<rect x="6" y="3" width="12" height="18" rx="1" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 7h4M10 11h4M10 21v-5h4v5" stroke="currentColor" stroke-width="2"/>' ),
+    );
+    ?>
+
+    <div class="memb-marquee">
+      <div class="memb-track">
+        <?php for ( $i = 0; $i < 2; $i++ ) : ?>
+          <?php foreach ( $badges as $b ) : ?>
+            <div class="memb-card">
+              <span class="memb-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><?php echo $b[2]; // static svg ?></svg>
+              </span>
+              <div>
+                <strong><?php echo esc_html( $b[0] ); ?></strong>
+                <span><?php echo esc_html( $b[1] ); ?></span>
+              </div>
+            </div>
+          <?php endforeach; ?>
+        <?php endfor; ?>
+      </div>
+    </div>
+  </section>
+  
+
 
 </main>
 

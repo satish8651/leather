@@ -265,7 +265,7 @@ Version: 1.0
 
 
 
-
+/* home  Page design start code here. ------------------------------------------------------------------------------------------------------ */
 /* Homepage Hero Slider style.css  ----------------------------------------------------------------------------------------------------------------------- */
 
 
@@ -675,12 +675,10 @@ Version: 1.0
 
 
 
-/* --------------------------- */
+/* ----★ PREMIUM PRINTING & BRANDING SOLUTIONS FOR ECO-FRIENDLY BAGS ★ Custom Printed Jute Bags & Printing Techniques- homepage style.css----------------------------- */
 
 
-/* ==========================================
-   Printing Techniques & Options Section
-========================================== */
+
 .printing-techniques-section {
   background-color: #FAF7F2;
   padding: 60px 20px;
@@ -902,6 +900,962 @@ Version: 1.0
 }
 
 
+/* --BESPOKE MANUFACTURING Create Your Unique Product Range homepage.style.css-------------------------------------------------------------- */
+
+
+.bespoke-manufacturing-section {
+  background-color: #112821; /* Dark Forest Green Background */
+  padding: 80px 20px;
+  color: #ffffff;
+}
+
+.bm-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.bm-row {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+/* Left Column */
+.bm-left-col {
+  flex: 1;
+}
+
+.bm-subheading {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #C09553; /* Gold Accent Color */
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.bm-title {
+  font-family: 'Playfair Display', serif, Georgia;
+  font-size: 38px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.2;
+  margin: 0 0 20px 0;
+}
+
+.bm-description {
+  font-size: 13px;
+  color: #A9B8B2;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+/* Feature Tags Grid */
+.bm-tags-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 35px;
+}
+
+/* Feature Tags Base Style */
+.bm-tag-item {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 12px 18px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #D3E0DC;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  user-select: none;
+}
+
+/* Hover Effect for Feature Option Tags */
+.bm-tag-item:hover {
+  background-color: rgba(192, 149, 83, 0.15);  /* Faded Gold Accent Background */
+  border-color: #C09553;                        /* Gold Border Glow */
+  color: #ffffff;                               /* Bright Text */
+  transform: translateY(-2px);                  /* Smooth Lift */
+  box-shadow: 0 4px 15px rgba(192, 149, 83, 0.25); /* Gold Shadow Glow */
+}
+
+/* Gold CTA Button */
+.bm-btn-gold {
+  background-color: #C09553 !important;
+  color: #112821 !important;
+  border: 1px solid #C09553 !important;
+}
+
+.bm-btn-gold:hover {
+  background-color: #C98A57 !important;
+  color: #ffffff !important;
+  border-color: #D3B075 !important;
+}
+
+/* Right Column & Vertical Timeline */
+.bm-right-col {
+  flex: 1;
+}
+
+.bm-process-timeline {
+  position: relative;
+  padding-left: 10px;
+}
+
+/* Vertical Line Connector */
+.bm-process-timeline::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  bottom: 30px;
+  left: 27px;
+  width: 1px;
+  background-color: rgba(192, 149, 83, 0.4); /* Faded Gold Line */
+  z-index: 1;
+}
+
+/* Step Item Base Style */
+.bm-step-item {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 28px;
+  z-index: 2;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.bm-step-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Step Circle Number Base */
+.bm-step-number {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #C09553;
+  color: #112821;
+  font-weight: 700;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 0 10px rgba(192, 149, 83, 0.4);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.bm-step-content {
+  padding-top: 4px;
+}
+
+.bm-step-content h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 5px 0;
+  transition: color 0.3s ease;
+}
+
+.bm-step-content p {
+  font-size: 12px;
+  color: #9EB0A9;
+  line-height: 1.5;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+/* ==========================================
+   Hover Effect for Steps (1, 2, 3, 4, 5)
+========================================== */
+
+/* 1. Step Circle Glow & Zoom on Hover */
+.bm-step-item:hover .bm-step-number {
+  background-color: #D3B075;
+  transform: scale(1.18);
+  box-shadow: 0 0 20px rgba(211, 176, 117, 0.9), 
+              0 0 35px rgba(192, 149, 83, 0.6);
+  color: #0d1e19;
+}
+
+/* 2. Text Highlight on Hover */
+.bm-step-item:hover .bm-step-content h3 {
+  color: #D3B075;
+}
+
+.bm-step-item:hover .bm-step-content p {
+  color: #ffffff;
+}
+
+/* 3. Smooth Slide Effect */
+.bm-step-item:hover {
+  background-color: rgba(255, 255, 255, 0.04);
+  transform: translateX(5px);
+}
+
+
+
+/* -Our Advantages Why Buyers Choose Vadalo Ventures--homepage style.css------------------------------------------------------------- */
+
+
+/* ==========================================
+   Why Buyers Choose Us Section Styling
+========================================== */
+.why-choose-us-section {
+  background-color: #FAF7F2; /* Theme Light Cream Background */
+  padding: 80px 20px;
+  font-family: inherit;
+  color: #2B3832;
+  text-align: center;
+}
+
+.wcu-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Header */
+.wcu-header {
+  max-width: 650px;
+  margin: 0 auto 40px auto;
+}
+
+.wcu-subheading {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #C09553; /* Accent Gold */
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.wcu-title {
+  font-family: 'Playfair Display', serif, Georgia;
+  font-size: 36px;
+  font-weight: 700;
+  color: #172B23;
+  margin: 0 0 16px 0;
+  line-height: 1.25;
+}
+
+.wcu-title em {
+  font-style: italic;
+  font-weight: 400;
+  color: #C09553;
+}
+
+.wcu-description {
+  font-size: 13px;
+  color: #616E68;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Top Badge Pills Grid (4 Columns) */
+.wcu-pills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.wcu-pill-item {
+  background-color: #ffffff;
+  border: 1px solid #EAEBE9;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #172B23;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+  transition: all 0.3s ease;
+}
+
+.wcu-pill-item:hover {
+  border-color: #C09553;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+}
+
+.wcu-check-icon {
+  width: 18px;
+  height: 18px;
+  background-color: #2D8A61; /* Green Check Circle */
+  color: #ffffff;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+/* Main Feature Cards Grid (5 Columns) */
+.wcu-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+/* Feature Cards */
+.wcu-card {
+  background-color: #ffffff;
+  border: 1px solid #EAEBE9;
+  border-radius: 10px;
+  padding: 22px 18px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.wcu-card:hover {
+  border-color: #C09553;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.07);
+}
+
+.wcu-card h3 {
+  font-size: 13px;
+  font-weight: 700;
+  color: #172B23;
+  margin: 0 0 10px 0;
+  line-height: 1.3;
+}
+
+.wcu-card p {
+  font-size: 11.5px;
+  color: #616E68;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.wcu-card p strong {
+  color: #172B23;
+}
+
+/* Responsive Rules */
+@media (max-width: 1100px) {
+  .wcu-pills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .wcu-cards-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .wcu-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .wcu-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wcu-pills-grid,
+  .wcu-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* ------ticker strip HOTELS & HOSPITALITY◆BOOK PUBLISHERS◆COSMETIC BRANDS---homepage style.css----------------------------------------------------- */
+
+/* ==========================================
+   Client Ticker Strip Styling
+========================================== */
+.client-ticker-strip {
+  background-color: #172B23; /* Dark Forest Green Background */
+  padding: 16px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.ticker-track {
+  display: inline-flex;
+  align-items: center;
+  gap: 25px;
+  animation: ticker-scroll 25s linear infinite;
+}
+
+.client-ticker-strip:hover .ticker-track {
+  animation-play-state: paused; /* Hover karne par scroll pause ho jayega */
+}
+
+.ticker-track span {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #E2EAE7;
+  text-transform: uppercase;
+}
+
+.ticker-diamond {
+  font-style: normal;
+  font-size: 10px;
+  color: #C09553; /* Gold Diamond Separator */
+  margin: 0 10px;
+}
+
+/* Continuous Horizontal Scrolling Animation */
+@keyframes ticker-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+/* -----FOR BUYERS Everything You Need to Start Your Order--homepage style.css--------------------------------------------------------------- */
+
+/* ==========================================
+   For Buyers Section Styling
+========================================== */
+.for-buyers-section {
+  background-color: #112821; /* Dark Forest Green Background */
+  padding: 80px 20px;
+  color: #ffffff;
+  font-family: inherit;
+}
+
+.fb-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Section Header */
+.fb-header {
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto 50px auto;
+}
+
+.fb-subheading {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #C09553;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.fb-title {
+  font-family: 'Playfair Display', serif, Georgia;
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 16px 0;
+  line-height: 1.25;
+}
+
+.fb-title em {
+  font-style: italic;
+  font-weight: 400;
+  color: #C09553;
+}
+
+.fb-description {
+  font-size: 13px;
+  color: #A9B8B2;
+  line-height: 1.6;
+  margin: 0 0 25px 0;
+}
+
+/* Buyer Toggle Switcher */
+.fb-toggle-wrapper {
+  display: inline-flex;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  padding: 4px;
+}
+
+.fb-toggle-btn {
+  background: transparent;
+  border: none;
+  color: #A9B8B2;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.fb-toggle-btn.active {
+  background-color: #C09553;
+  color: #112821;
+}
+
+/* Main Content Layout */
+.fb-content-row {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.fb-left-col,
+.fb-right-col {
+  flex: 1;
+}
+
+/* Left Column Styling */
+.fb-badge {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #C09553;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.fb-left-title {
+  font-family: 'Playfair Display', serif, Georgia;
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 15px 0;
+  line-height: 1.25;
+}
+
+.fb-left-title em {
+  font-style: italic;
+  font-weight: 400;
+  color: #C09553;
+}
+
+.fb-left-desc {
+  font-size: 12.5px;
+  color: #A9B8B2;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/* Feature List */
+.fb-feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.fb-feature-item {
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  transition: all 0.3s ease;
+}
+
+.fb-feature-item:hover {
+  border-color: #C09553;
+  background-color: rgba(192, 149, 83, 0.08);
+  transform: translateX(4px);
+}
+
+.fb-icon-box {
+  color: #C09553;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.fb-feature-item h4 {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin: 0 0 4px 0;
+}
+
+.fb-feature-item p {
+  font-size: 11.5px;
+  color: #A9B8B2;
+  margin: 0;
+  line-height: 1.45;
+}
+
+/* Buttons Group */
+.fb-btn-group {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.fb-btn-gold {
+  background-color: #C09553 !important;
+  color: #112821 !important;
+  border: 1px solid #C09553 !important;
+}
+
+.fb-btn-gold:hover {
+  background-color: #C98A57 !important;
+  color: #ffffff !important;
+  border-color: #D3B075 !important;
+}
+
+.fb-btn-outline {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.fb-btn-outline:hover {
+  background-color: #C98A57 !important;
+  color: #ffffff !important;
+  border-color: #D3B075 !important;
+}
+
+/* Right Column Specs Cards */
+.fb-right-col {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.fb-spec-card {
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 16px 20px;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.fb-spec-card:hover {
+  border-color: #C09553;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.fb-spec-label {
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: #C09553;
+  display: block;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.fb-spec-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 4px 0;
+}
+
+.fb-spec-sub {
+  font-size: 11px;
+  color: #8C9C95;
+  margin: 0;
+}
+
+.fb-spec-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+/* Countries We Export To */
+.fb-countries-card {
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 16px 20px;
+  text-align: left;
+}
+
+.fb-countries-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.fb-country-tag {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 10.5px;
+  color: #D1DED9;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.fb-country-tag strong {
+  font-size: 8px;
+  color: #8C9C95;
+}
+
+.fb-country-tag.gold {
+  color: #C09553;
+  border-color: rgba(192, 149, 83, 0.3);
+}
+
+/* Responsive Rules */
+@media (max-width: 900px) {
+  .fb-content-row {
+    flex-direction: column;
+  }
+  .fb-title, .fb-left-title {
+    font-size: 28px;
+  }
+  .fb-spec-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+/* ------FREE DOWNLOAD Download Our Product Catalogue--homepage style.css-------------------------------------------------------------------------- */
+
+
+.cat { background: linear-gradient(135deg, #2A1A12, #3E2A1F 60%, #4a3225); padding: 80px 0; color: #fff; }
+.cat-grid { display: grid; grid-template-columns: 1.15fr 1fr; gap: 50px; align-items: center; }
+.cat-text .eyebrow { color: #C68B59; }
+.cat-text h2 { font-family: Georgia, serif; font-size: 42px; line-height: 1.15; color: #fff; margin: 8px 0 16px; }
+.cat-text p { font-size: 15px; line-height: 1.8; color: #E8DCCB; max-width: 520px; margin: 0 0 24px; }
+
+.cat-chips { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 26px; }
+.cat-chips span { background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.15); border-radius: 6px; padding: 11px 14px; font-size: 12.5px; font-weight: 600; color: #F3E9DA; }
+
+.cat-btns { display: flex; flex-direction: column; align-items: flex-start; gap: 14px; }
+.cat-btn { display: inline-flex; align-items: center; gap: 12px; padding: 18px 34px; font-size: 12.5px; font-weight: 700; letter-spacing: 1.8px; text-decoration: none; border-radius: 3px; transition: .25s; }
+.cat-gold { background: #C68B59; color: #fff; }
+.cat-gold:hover { background: #E0B084; color: #2A1A12; transform: translateY(-2px); }
+.cat-outline { border: 1px solid rgba(255,255,255,.6); color: #fff; }
+.cat-outline:hover { background: #fff; color: #2A1A12; }
+
+.cat-frame { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.15); border-radius: 26px; padding: 26px; box-shadow: 0 25px 50px rgba(0,0,0,.35); }
+.cat-frame img { width: 100%; height: 360px; object-fit: cover; display: block; border-radius: 14px; background: linear-gradient(135deg, #C68B59, #3E2A1F); }
+
+@media (max-width: 900px) {
+  .cat-grid { grid-template-columns: 1fr; }
+  .cat-text h2 { font-size: 30px; }
+  .cat-chips { grid-template-columns: 1fr; }
+  .cat-frame img { height: 260px; }
+}
+
+
+.cat {
+  background: linear-gradient(135deg, #153325 0%, #1c4230 55%, #24543d 100%);
+  color: #fff;
+}
+.cat-text .eyebrow { color: #D4AF4F; }
+.cat-text h2 { color: #fff; }
+.cat-text p { color: #cfe0d6; }
+
+.cat-chips span {
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.14);
+  color: #e6f0ea;
+}
+
+.cat-gold { background: #C9A84C; color: #fff; }
+.cat-gold:hover { background: #dcc068; color: #153325; }
+
+.cat-outline { border: 1px solid rgba(255,255,255,.7); color: #fff; background: transparent; }
+.cat-outline:hover { background: #fff; color: #153325; }
+
+.cat-frame {
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.14);
+  box-shadow: 0 25px 50px rgba(0,0,0,.35);
+}
+.cat-frame img { background: linear-gradient(135deg, #24543d, #153325); }
+
+
+.cat-chips span {
+  cursor: pointer;
+  transition: all .25s ease;
+}
+.cat-chips span:hover {
+  background: rgba(201,168,76,.18);
+  border-color: #C9A84C;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0,0,0,.3);
+}
+
+/* Buttons hover (smooth + lift) */
+.cat-btn {
+  transition: all .25s ease;
+}
+.cat-gold:hover {
+  background: #dcc068;
+  color: #153325;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 22px rgba(0,0,0,.35);
+}
+.cat-outline:hover {
+  background: #C9A84C;
+  border-color: #C9A84C;
+  color: #153325;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 22px rgba(0,0,0,.35);
+}
+.cat-btn svg { transition: transform .25s ease; }
+.cat-btn:hover svg { transform: scale(1.2); }
+
+/* Image frame hover */
+.cat-frame {
+  transition: all .35s ease;
+}
+.cat-frame img {
+  transition: transform .5s ease;
+}
+.cat-frame:hover {
+  border-color: #C9A84C;
+  transform: translateY(-5px);
+  box-shadow: 0 30px 60px rgba(0,0,0,.45);
+}
+.cat-frame:hover img {
+  transform: scale(1.04);
+}
+.cat-frame { overflow: hidden; }
+
+
+
+
+/* ----Our Process How We Work — Simple & Transparent----homepage style.css----------------------------------------------------------- */
+
+
+
+.work { background: #F6EFE4; padding: 70px 0 70px; }
+.work-head { text-align: center; max-width: 680px; margin: 0 auto 44px; }
+.work-head h2 { font-family: Georgia, serif; font-size: 38px; color: #2A1A12; margin: 6px 0 12px; }
+.work-head h2 em { color: #C68B59; }
+.work-line { display: block; width: 50px; height: 3px; background: #C68B59; margin: 0 auto 16px; }
+.work-head p { font-size: 14px; line-height: 1.8; color: #6B5A4E; margin: 0; }
+
+.work-steps { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; position: relative; }
+.work-steps::before {
+  content: ""; position: absolute; top: 29px; left: 10%; right: 10%;
+  height: 1px; background: #D9C7A8;
+}
+.wstep { position: relative; text-align: center; padding: 0 12px; }
+.wstep-icon {
+  position: relative; z-index: 1;
+  width: 58px; height: 58px; margin: 0 auto 22px;
+  border-radius: 50%; background: #F6EFE4; border: 2px solid #D9C7A8;
+  display: flex; align-items: center; justify-content: center;
+  color: #3E2A1F; transition: .25s;
+}
+.wstep:hover .wstep-icon { background: #3E2A1F; color: #fff; border-color: #3E2A1F; transform: translateY(-4px); }
+.wstep h4 { font-size: 12.5px; letter-spacing: 1.5px; color: #2A1A12; margin: 0 0 10px; }
+.wstep p { font-size: 12.5px; line-height: 1.7; color: #6B5A4E; margin: 0; }
+
+.work-cta { text-align: center; margin-top: 36px; }
+
+@media (max-width: 900px) {
+  .work-steps { grid-template-columns: 1fr 1fr; row-gap: 30px; }
+  .work-steps::before { display: none; }
+  .work-head h2 { font-size: 28px; }
+}
+@media (max-width: 560px) { .work-steps { grid-template-columns: 1fr; } }
+
+
+
+.work-cta { text-align: center; margin-top: 40px; }
+
+.work-cta a.enquiry-btn {
+  display: inline-block;
+  background: #3E2A1F;
+  color: #ffffff;
+  padding: 22px 56px;
+  min-width: 320px;
+  border-radius: 4px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1.2;
+  border: none;
+  box-shadow: 0 6px 16px rgba(42,26,18,.25);
+  transition: all .25s ease;
+}
+.work-cta a.enquiry-btn:hover {
+  background: #C68B59;
+  color: #1C110B;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(42,26,18,.3);
+}
+
+
+/* ------Certifications & Memberships" (scrolling badge strip) homepage style.css---------------------------------------------------------------- */
+
+
+.memb { background: #F6EFE4; padding: 50px 0 60px; overflow: hidden; border-top: 1px solid #E8DCCB; }
+.memb-head { text-align: center; margin-bottom: 26px; }
+
+.memb-marquee {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+          mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+}
+.memb-track { display: flex; gap: 48px; width: max-content; animation: membScroll 40s linear infinite; padding: 6px 0; }
+.memb-marquee:hover .memb-track { animation-play-state: paused; }
+
+.memb-card {
+  flex: 0 0 auto;
+  display: flex; align-items: center; gap: 14px;
+  background: #fff; border-radius: 6px;
+  padding: 16px 22px;
+  box-shadow: 0 4px 14px rgba(42,26,18,.08);
+  transition: .25s;
+}
+.memb-card:hover { transform: translateY(-3px); box-shadow: 0 10px 22px rgba(42,26,18,.15); }
+
+.memb-icon {
+  flex: 0 0 auto;
+  width: 34px; height: 34px; border-radius: 6px;
+  background: #3E2A1F; color: #E0B084;
+  display: flex; align-items: center; justify-content: center;
+}
+.memb-card strong { display: block; font-size: 12px; letter-spacing: 1.2px; color: #2A1A12; white-space: nowrap; }
+.memb-card span:not(.memb-icon) { display: block; margin-top: 3px; font-size: 11px; color: #8a7a6d; white-space: nowrap; }
+
+@keyframes membScroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+@media (max-width: 768px) { .memb-track { animation-duration: 30s; gap: 24px; } }
+
+
+
+/* About Us Page design start code here. ---------------------------------------------------------------------------------------------------------*/
 /* About Us Page First Slider image style.css ------------------------------------------------------------------------------------------------------*/
 
 
@@ -1033,12 +1987,12 @@ a.btn-primary:hover {
 }
 .about-btns .btn-outline-light:hover { background: #fff; color: #2A1A12; }
 
-/* website Logo style.css-------------------------------------------------------------------------------------------------------- */
+/* website Logo style.css--------------------------------------------------------------------------------------------------------------------- */
 .brand { display: flex; align-items: center; }
 .brand-logo-img { height: 48px; width: auto; display: block; }
 
 
-/* All website color family style.css--------------------------------------------------------------------------------------------------- */
+/* All website color family style.css-- code here.------------------------------------------------------------------------------------------------- */
 
 
 /* Header: logo ke saath match, text white */
