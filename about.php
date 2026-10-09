@@ -78,32 +78,7 @@ $img = get_template_directory_uri() . '/images/';
     </div>
   </section>
 
-  <!-- Mission / Vision -->
-  <section class="mv">
-    <div class="container mv-grid">
-      <div class="mv-card">
-        <h3>Our Mission</h3>
-        <p>To provide high-quality, eco-friendly bags and make sustainable packaging the global standard, while maintaining customer satisfaction.</p>
-      </div>
-      <div class="mv-card">
-        <h3>Our Vision</h3>
-        <p>To become a trusted and leading global exporter by continuously improving our products and services.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Certifications -->
-  <section class="certs" id="certifications">
-    <div class="container">
-      <small class="eyebrow dark">TRUST &amp; COMPLIANCE</small>
-      <h2>Our <em>Certifications</em></h2>
-      <div class="cert-grid">
-        <div class="cert-card"><strong>Sedex · SMETA</strong><span>4-Pillar certified factory</span></div>
-        <div class="cert-card"><strong>OEKO-TEX®</strong><span>Standard 100</span></div>
-        <div class="cert-card"><strong>GOTS</strong><span>Global Organic Textile Standard</span></div>
-        <div class="cert-card"><strong>GRS</strong><span>Global Recycled Standard</span></div>
-      </div>
-    </div>
+  
   </section>
 
 </main>
